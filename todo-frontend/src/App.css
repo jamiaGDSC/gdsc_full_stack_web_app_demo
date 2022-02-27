@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-nav {
+  padding: 1rem;
+  width: 100%;
+  font-size: 2rem;
+  position: relative;
+}
+
+.App-title {
+  margin-bottom: 0.6rem;
+}
+
+.logoutBtn {
+  position: absolute;
+  background-color: inherit;
+  outline: none;
+  right: 20px;
+  top: 15px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.loginForm {
+  background-color: #ffffff;
+  padding: 10px 80px 40px 80px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 50px;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 2rem;
+}
+
+.loginText {
+  padding-bottom: 30px;
+}
+
+.loginLabel {
+  font-size: 1.25rem;
+  padding: 10px 0px;
+}
+
+.loginInput {
+  font-size: 1.15rem;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.loginSubmit {
+  margin: 30px 0px;
+  padding: 10px;
+  background-color: #282c34bb;
+  outline: none;
+  border: 1px solid #282c34bb;
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.todoContainer {
+  padding: 10px 80px 40px 80px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 50px;
+  font-size: 1rem;
+}
+
+.todo {
+  padding: 10px;
+  display: flex;
+  margin: 10px;
+  background-color: #383c54bb;
+  justify-content: space-between;
+}
+
+.completeBtn {
+  background-color: inherit;
+  color: #00ff56;
+  font-size: 1.25rem;
+  padding: 10px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  background-color: inherit;
+  color: #ed3311;
+  font-size: 1.25rem;
+  padding: 10px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+.newTodoWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.newTodo {
+  padding: 10px;
+  width: 85%;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.addBtn {
+  width: 15%;
+  cursor: pointer;
+  color: #fff;
+  background-color: #12aadd;
+  font-size: 1.1rem;
+  outline: none;
+  border: 1px solid #12aadd;
+}
+
+.addIcon {
+  margin-right: 4px;
+}
